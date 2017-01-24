@@ -1,0 +1,10 @@
+body {
+  font: 99% Helvetica, sans-serif;
+  color: #333; }
+
+body .test {
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  background-color: #333; }

@@ -1,0 +1,43 @@
+<html>
+<head>
+{% block head %}
+	<!-- bower:css -->
+	<link rel="stylesheet" href="static/bower_components/font-awesome/css/font-awesome.min.css" />
+	<!-- endbower -->
+	
+	<!-- inject:css -->
+
+	<link rel="stylesheet" href="/static/css/main.css">
+
+	<link rel="stylesheet" href="/static/css/site.css">
+
+	<!-- endinject -->
+{% endblock %}
+</head>
+<body>	
+	<header>
+		{% block header %}
+		{% endblock %}
+	</header>
+	<main>
+		{% block content %}
+		{% endblock %}
+	</main>
+	<footer>
+		{% block footer %}
+		{% endblock %}
+	</footer>
+</body>
+	<!-- bower:js -->
+	<script src="static/bower_components/modernizr/modernizr.js"></script>
+	<script src="static/bower_components/jquery/dist/jquery.js"></script>
+	<script src="static/bower_components/fastclick/lib/fastclick.js"></script>
+	<script src="static/bower_components/jquery.cookie/jquery.cookie.js"></script>
+	<script src="static/bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+	<script src="static/bower_components/foundation/js/foundation.js"></script>
+	<!-- endbower -->
+	
+	<!-- inject:js -->
+		<!-- app scripts will go here... -->
+	<!-- endinject -->
+</html>

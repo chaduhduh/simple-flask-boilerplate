@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "description": "blog",
+  "main": "",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "foundation": "^5.5.3",
+    "font-awesome": "^4.7.0"
+  },
+  "overrides": {
+    "foundation": {
+      "main": [
+        "js/foundation.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.min.css"
+      ]
+    }
+  }
+}
