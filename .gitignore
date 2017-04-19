@@ -1,0 +1,5 @@
+/node_modules
+/application/static/bower_components
+/env
+*.pyc
+!.bowerrc
